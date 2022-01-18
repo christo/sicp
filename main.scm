@@ -8,7 +8,7 @@
 (define (testex expq val)
   (let ((result (eval expq)))
     (printf "~a\n> ~a" expq result)
-    (cond ((eq? result val) (display "\nok\n"))
+    (cond ((equal? result val) (display "\nok\n"))
           (else (printf "\nexpected ~a\n" val)))))
 
 ; from section 1.3.3
