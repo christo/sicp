@@ -1,3 +1,5 @@
+#!/usr/bin/env petite -q --script
+
 ; some random scheme code while following sicp book 2nd ed
 
 ; test an expression and print it with evaluation and expected
