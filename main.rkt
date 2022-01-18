@@ -11,6 +11,7 @@
   (syntax-rules ()
     ((_ expr val) (let ((actual expr))
                     (display 'expr) (newline)
+                    (display "> ")
                     (display actual) (newline)
                     (cond
                      ((equal? actual val) (display "ok") (newline))
